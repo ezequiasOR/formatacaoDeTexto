@@ -22,8 +22,6 @@ public class Main {
 			TipoFormatacao tipoFormatacao = TipoFormatacao.values()[opcaoFormatacao -1 ];
 			Formatacao formatacao = tipoFormatacao.obterFormatacao();
 			
-			System.out.println(editorDeTexto.publicarTexto());
-			
 			editorDeTexto.setFormatacao(formatacao);
 			System.out.println(editorDeTexto.publicarTexto());
 		}
